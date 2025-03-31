@@ -1,0 +1,57 @@
+@import url(../css/reset.css);
+
+@font-face {
+  font-family: 'IRANYekan';
+  src: url("../fonts/IRANYekanXFaNum-Bold.woff2"),
+    url("../fonts/IRANYekanXFaNum-Regular.woff2");
+}
+
+body {
+  font-family: "IRANYekan";
+  background-image: url('../images/back1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  background-color: rgba(16, 1, 82, 0.8);
+  padding: 50px 30px;
+  width: 70%;
+}
+
+.brand img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.timer {
+  border: 1px dashed rgb(4, 201, 151);
+  border-radius: 20px;
+  padding: 30px 0;
+}
+
+.timer-section {
+  border: 3px solid #fff;
+  padding: 80px;
+  width: 100px;
+  height: 100px;
+}
+
+.contact-us ul li a img {
+  width: 50px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    height: 100vh;
+  }
+}
