@@ -1,13 +1,11 @@
-@import url(../css/reset.css);
-
 @font-face {
-  font-family: 'IRANYekan';
-  src: url("../fonts/IRANYekanXFaNum-Bold.woff2"),
-    url("../fonts/IRANYekanXFaNum-Regular.woff2");
+  font-family: 'Vazir';
+  src: url("../node_modules/vazirmatn/fonts/webfonts/Vazirmatn-Bold.woff2"),
+    url("../node_modules/vazirmatn/fonts/webfonts/Vazirmatn-Regular.woff2");
 }
 
 body {
-  font-family: "IRANYekan";
+  font-family: "Vazir";
   background-image: url('../images/back1.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -38,10 +36,15 @@ body {
   width: 100px;
   height: 100px;
 }
-
-.contact-us ul li a img {
+.contact-us ul li{
   width: 50px;
-  color: red;
+  height: 50px;
+}
+.contact-us ul li a i {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  border: 1px dashed white;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,31 @@
+{
+  "name": "personal-maintenance",
+  "version": "1.0.0",
+  "description": "personal maintenance webpage before website deploy",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirali-fadishei/personal-maintenance.git"
+  },
+  "keywords": [
+    "webpage",
+    "404",
+    "maintenance",
+    "loading",
+    "timer"
+  ],
+  "author": "amirali-fadishei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirali-fadishei/personal-maintenance/issues"
+  },
+  "homepage": "https://github.com/amirali-fadishei/personal-maintenance#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "lineicons": "^1.3.2",
+    "vazirmatn": "^33.0.3"
+  }
+}
